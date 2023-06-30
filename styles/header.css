@@ -53,7 +53,7 @@
 }
 
 .lista-menu__link {
-    background: var(--cor-branco);
+    background: var(--cor-texto-azul);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

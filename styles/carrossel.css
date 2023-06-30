@@ -51,6 +51,10 @@
 
 .descricao__titulo-livro {
     color: var(--cor-texto-azul);
+    background: var(--cor-texto-azul);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     font-size: 18px;
     font-weight: 700;
     margin: .5em 0;;
@@ -70,4 +74,8 @@
     color: var(--cor-branco);
     text-decoration: none;
     font-weight: 700;
+}
+
+.descricao__estrelinhas {
+    margin: 0.5em 0;
 }

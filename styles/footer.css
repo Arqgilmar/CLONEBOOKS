@@ -1,0 +1,18 @@
+.hr {
+    margin: 0;
+}
+
+.rodapé {
+    background-color: var(--cor-fundo);
+    padding: 1em;
+}
+
+.rodapé__titulo {
+    font-size: 14px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
+@media (min-width 1024px) { 
+
+}
