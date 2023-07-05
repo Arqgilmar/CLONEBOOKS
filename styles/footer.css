@@ -12,3 +12,44 @@
     font-family: var(--fonte-principal);
     font-weight: 400;
 }
+
+.lista-rodape {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .rodapé {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodapé__titulo {
+        
+    }
+
+    .lista-rodape {
+        display: block;
+    }
+
+    .lista-rodape__item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+
+    .lista-rodape__link {
+        color: var(--cor-cinza);
+        text-decoration: none;
+        margin-left: 0.6em;
+    }
+
+    .lista-rodape__titulo {
+        font-size: 14px;
+        color: var(--cor-cinza-claro);
+    }
+
+    .rodapé__titulo {
+        font-size: 24px;
+    }
+}
