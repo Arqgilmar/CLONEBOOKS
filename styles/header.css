@@ -7,6 +7,14 @@
     background-position: center;
 }
 
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
+    background-image: url(../imagens/Menu\ Aberto.svg);
+} 
+
+.container__botao:checked ~ .container__rotulo {
+    background: var(--cor-azul);
+}
+
 .cabecalho {
     background-color: var(--cor-fundo-branco);
     display: flex;
@@ -108,6 +116,24 @@
 
     .opcoes__botao {
         display: none;
+    }
+
+    .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+        background: var(--cor-azul);
+        color: var(--cor-branco);
+    }
+
+    .opcoes__item {
+        padding: 2em 1em;
+    }
+
+    .lista-menu__item:hover {
+        background: var(--cor-azul);
+    }
+
+    .lista-menu__item:hover > .lista-menu__link {
+        -webkit-text-fill-color: var(--cor-branco);
+        text-decoration: none;
     }
 }
 
